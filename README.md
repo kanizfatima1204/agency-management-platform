@@ -25,14 +25,14 @@ npm run build
 php artisan serve
 ```
 
-Open `http://127.0.0.1:8000`. The seeded demo accounts all use `password`:
+Open `http://127.0.0.1:8000` locally or https://agency-management-platform-production.up.railway.app for the live MVP. The seeded demo accounts all use `password`:
 
 - `admin@agency.test`
 - `client@agency.test`
 - `team@agency.test`
 - `intern@agency.test`
 
-Use only for local evaluation. Remove/replace demo credentials before deployment.
+These shared demo credentials are enabled on the public MVP for evaluation. Do not use them for real client data; replace them and disable public demo seeding before production use.
 
 ## Documentation
 
@@ -43,4 +43,4 @@ Use only for local evaluation. Remove/replace demo credentials before deployment
 
 ## Scope and deployment
 
-This is a working MVP foundation, not a deployed SaaS: it has no tenant isolation, gateway billing, external API, email/invitation workflow, or production account provisioning. Hosting, a production MySQL instance, domain and live demo have not been provisioned. See `docs/` for production follow-ups.
+This is a deployed working MVP foundation, not a fully hardened SaaS: it has no tenant isolation, gateway billing, external API, email/invitation workflow, or production account provisioning. See `docs/` for production follow-ups.

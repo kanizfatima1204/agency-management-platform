@@ -15,7 +15,7 @@ npm run dev
 php artisan serve
 ```
 
-Demo users (all seeded with password `password`): `admin@agency.test`, `client@agency.test`, `team@agency.test`, `intern@agency.test`. Use only for local evaluation; change/remove these credentials before deployment.
+The live demo is https://agency-management-platform-production.up.railway.app. Demo users (all seeded with password `password`): `admin@agency.test`, `client@agency.test`, `team@agency.test`, `intern@agency.test`. These shared credentials are for evaluation only. Do not store real client data until they are disabled/replaced and production account provisioning is implemented.
 
 ## Production release
 
