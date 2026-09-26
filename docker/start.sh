@@ -3,4 +3,4 @@ set -eu
 
 cd /var/www/html
 php artisan migrate --force
-exec apache2-foreground
+exec php artisan serve --host=0.0.0.0 --port="${PORT:-8080}"
