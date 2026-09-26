@@ -1,0 +1,3 @@
+Generated source files: 64
+PHP lint failures: 0
+All included PHP files passed php -l.
